@@ -1,4 +1,4 @@
-# Landing page [J Group Industries](https://www.aiims.com.au)
+# Landing page [J Group Industries](https://www.jgroupindustries.com.au)
 
 This is a landing page boilerplate that uses PHP scripting language
 

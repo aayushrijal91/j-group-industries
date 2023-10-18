@@ -2,14 +2,14 @@
 include __DIR__ . '/env.php';
 
 $site = "J Group Industries";
-$phone_number = "1300 000 000";
-$admin_email = 'arijal@aiims.com.au';
+$phone_number = "0426 133 223";
+$admin_email = 'arijal@aiims.com.au'; // 'info@jgroupindustries.au';
 $bcc_email = "";
-$no_reply_email = 'info@website.com.au';
+$no_reply_email = 'info@jgroupindustries.au';
 $recaptcha_client_secret = $client_secret;
 $recaptcha_server_secret = $server_secret;
-$facebook = "";
-$instagram = "";
+$facebook = "https://www.facebook.com/people/J-Group-Industries/100063710344506/";
+$instagram = "https://www.instagram.com/jgroupindustries/";
 
 function renderImg($filename, $folder, $classname = "")
 {
