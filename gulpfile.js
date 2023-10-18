@@ -9,6 +9,7 @@ const imagemin = require('gulp-imagemin')
 const browserSync = require("browser-sync").create()
 const concat = require('gulp-concat')
 const terser = require('gulp-terser')
+const sourcemaps = require('gulp-sourcemaps')
 
 function style() {
     const processors = [
@@ -21,6 +22,18 @@ function style() {
     .pipe(sass().on('error', sass.logError))
     .pipe(postcss(processors))
     .pipe(gulp.dest('./app/assets/css'))
+}
+
+function slick_assets() {
+    return gulp.src('./node_modules/slick-carousel/slick/ajax-loader.gif')
+        .pipe(sourcemaps.init())
+        .pipe(sourcemaps.write())
+        .pipe(gulp.dest('./app/assets/css'));
+}
+
+function slick_fonts() {
+    return gulp.src('./node_modules/slick-carousel/slick/fonts/**/*')
+        .pipe(gulp.dest('./app/assets/fonts/'));
 }
 
 function imgSquash() {
@@ -43,7 +56,7 @@ function scripts() {
         .pipe(gulp.dest('./app/assets/js'));
 }
 
-function watchTask() {
+function watch() {
     browserSync.init({
         proxy: encodeURI(`localhost/landing_pages/${path.resolve(__dirname, './').split(path.sep).pop()}/app`),
         injectChanges: true,
@@ -53,5 +66,12 @@ function watchTask() {
     gulp.watch("./images/**/*", imgSquash);
     gulp.watch(["./app/assets/css/**/*.css", "./app/**/*.php", "./app/assets/js/**/*.js"]).on('change', browserSync.reload);;
 }
+// exports.watch = watchTask;
 
-exports.watch = watchTask;
+exports.watch = gulp.series(
+    gulp.parallel(
+        slick_assets,
+        slick_fonts,
+    ),
+    watch
+)

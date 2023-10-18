@@ -29,18 +29,28 @@ $('.question').on('click', function () {
     $(this).next('.answer').slideToggle();
 });
 
+$('#gallery_slider').slick({
+    slidesToShow: 4,
+    slidesToScroll: 1,
+    centerMode: true,
+    arrows: false,
+    autoplay: true,
+    speed: 3000,
+    autoplaySpeed: 2000,
+    responsive: [
+        {
+            breakpoint: 540,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                centerMode: true,
+                centerPadding: "60px",
+            }
+        }
+    ]
+});
 
 $(() => {
-    $('#gallery_slider').slick({
-        slidesToShow: 3,
-        slidesToScroll: 1,
-        centerMode: true,
-        arrows: false,
-        autoplay: true,
-        speed: 3000,
-        autoplaySpeed: 2000,
-        centerPadding: "300px"
-    });
 
     var $slider = $('#testimonial_slider');
     var $progressBar = $('.progress');
@@ -59,6 +69,16 @@ $(() => {
         arrows: false,
         autoplay: true,
         speed: 3000,
-        autoplaySpeed: 5000
+        autoplaySpeed: 5000,
+        // mobileFirst: true,
+        responsive: [
+            {
+                breakpoint: 540,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                }
+            }
+        ]
     });
 });

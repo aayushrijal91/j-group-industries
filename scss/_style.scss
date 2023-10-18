@@ -1,10 +1,18 @@
 header {
     background: imgUrl('banner.png') right top #232323;
     background-size: contain;
+
+    @media screen and (max-width: 540px) {
+        background: #232323;
+    }
 }
 
 section.form {
     box-shadow: 0 0 0 12px #ffffff;
+
+    @media screen and (max-width: 540px) {
+        box-shadow: 0 0 0 8px #ffffff;
+    }
 
     form {
         label {
@@ -12,6 +20,10 @@ section.form {
             color: #ffffff;
             text-transform: capitalize;
             font-weight: 600;
+
+            @media screen and (max-width: 540px) {
+                display: none;
+            }
         }
 
         .form-control {
@@ -24,6 +36,12 @@ section.form {
             padding: 8px 20px;
             font-weight: 600;
             font-size: 18px;
+
+            @media screen and (max-width: 540px) {
+                height: 47px;
+                margin-top: 0;
+                font-size: 14px;
+            }
         }
     }
 }
@@ -50,13 +68,16 @@ section.testimonials {
 
         .slick-slide {
             height: inherit;
-            border-radius: 20px;
             border: 1px solid #525151;
             background: #323232;
             padding: 70px 42px;
             display: flex;
             flex-direction: column;
             align-items: center;
+
+            @media screen and (max-width: 540px) {
+                padding: 46px 24px;
+            }
         }
     }
 
