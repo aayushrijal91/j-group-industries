@@ -69,12 +69,12 @@
         </div>
     </nav>
 
-    <div class="banner pt-6 lg:pt-0">
-        <div class="flex flex-wrap items-center pb-40 gap-y-11 lg:gap-y-5">
-            <div class="w-full lg:w-1/2 flex justify-end px-3 lg:px-0">
-                <article class="w-full lg:w-3/4">
-                    <h1 class="text-[45px] md:text-6xl lg:text-[85px] text-center lg:text-start font-helvetica-condensed font-semibold uppercase leading-none text-primary">Commercial and Residential <span class="text-white">Hazardous Material Removal</span></h1>
-                    <p class="text-white text-sm md:text-2xl text-center lg:text-start font-medium py-8"><b>Fully Licensed and Qualified</b> with all NSW regulations and safety requirements</p>
+    <div class="banner pt-6 xl:pt-0">
+        <div class="flex flex-wrap items-center pb-40 gap-y-11 xl:gap-y-5">
+            <div class="w-full xl:w-1/2 flex xl:justify-end px-3 xl:px-0">
+                <article class="w-full xl:w-3/4">
+                    <h1 class="text-[45px] md:text-6xl lg:text-[85px] text-center xl:text-start font-helvetica-condensed font-semibold uppercase leading-none text-primary">Commercial and Residential <span class="text-white">Hazardous Material Removal</span></h1>
+                    <p class="text-white text-sm md:text-2xl text-center xl:text-start font-medium py-8"><b>Fully Licensed and Qualified</b> with all NSW regulations and safety requirements</p>
                     <div class="flex flex-wrap items-center gap-x-6 justify-center">
                         <div class="w-1/5 md:w-fit"><?= renderImg('lendlease.png', 'logo') ?></div>
                         <div class="w-1/5 md:w-fit"><?= renderImg('lipman.png', 'logo') ?></div>
@@ -84,17 +84,17 @@
                     </div>
                 </article>
             </div>
-            <div class="lg:w-1/2"><?= renderImg('banner.jpg', 'lib', 'w-full rounded-tl-[100px] md:rounded-tl-none md:rounded-tr-[100px] md:rounded-bl-[250px]') ?></div>
+            <div class="w-full xl:w-1/2"><?= renderImg('banner.jpg', 'lib', 'w-full rounded-tl-[100px] md:rounded-tl-none md:rounded-tr-[100px] md:rounded-bl-[250px]') ?></div>
         </div>
     </div>
 </header>
 
-<div class="container mt-[-190px] lg:mt-[-114px]">
+<div class="container mt-[-190px] xl:mt-[-114px]">
     <section class="form rounded-[12px] bg-[#282828] py-10 px-4 relative">
         <div class="flex flex-wrap justify-between items-center gap-y-8">
-            <div class="w-full lg:w-5/12 md:px-6">
-                <h2 class="text-[40px] md:text-[70px] text-white font-helvetica-condensed font-semibold uppercase leading-none text-center md:text-start">Your trusted Hazardous Removal Experts</h2>
-                <p class="text-white flex items-center gap-x-3 font-semibold pt-3">Consistent 5 star ratings
+            <div class="w-full xl:w-5/12 md:px-6">
+                <h2 class="text-[40px] md:text-[70px] text-white font-helvetica-condensed font-semibold uppercase leading-none text-center xl:text-start">Your trusted Hazardous Removal Experts</h2>
+                <p class="text-white flex items-center gap-x-3 font-semibold pt-3 justify-center xl:justify-start">Consistent 5 star ratings
                     <span>
                         <svg width="77" height="13" viewBox="0 0 77 13" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M12.5215 4.96648C12.5215 4.96727 12.5208 4.96788 12.52 4.96777L10.0883 4.61469C9.39537 4.51408 8.79632 4.07898 8.48633 3.45118L7.39749 1.24598C7.3516 1.16734 7.28591 1.1021 7.20695 1.05675C7.128 1.01141 7.03854 0.987549 6.94749 0.987549C6.85644 0.987549 6.76698 1.01141 6.68802 1.05675C6.60907 1.1021 6.54337 1.16734 6.49749 1.24598C5.50846 3.25407 3.59269 4.64634 1.37749 4.96798C1.28514 4.98139 1.19838 5.02038 1.12704 5.08053C1.05569 5.14069 1.00261 5.21961 0.973787 5.30836C0.944965 5.39712 0.941556 5.49217 0.963947 5.58276C0.986338 5.67335 1.03363 5.75587 1.10049 5.82098C2.70358 7.38528 3.43588 9.63949 3.05649 11.847C3.04066 11.939 3.05092 12.0336 3.0861 12.1201C3.12128 12.2066 3.17997 12.2815 3.25553 12.3363C3.33109 12.3912 3.4205 12.4238 3.51363 12.4304C3.60676 12.4371 3.6999 12.4175 3.78249 12.374C5.76419 11.3303 8.13401 11.3287 10.1165 12.371C10.1879 12.4089 10.2676 12.4285 10.3485 12.428C10.4213 12.4281 10.4934 12.4124 10.5595 12.3818C10.6256 12.3512 10.6843 12.3065 10.7313 12.2509C10.7784 12.1953 10.8127 12.13 10.8319 12.0597C10.8511 11.9894 10.8547 11.9158 10.8425 11.844C10.4631 9.63649 11.1954 7.38228 12.7985 5.81798C12.8653 5.75287 12.9126 5.67035 12.935 5.57976C12.9574 5.48917 12.954 5.39412 12.9252 5.30536C12.8964 5.21661 12.8433 5.13769 12.7719 5.07753C12.701 5.0177 12.6148 4.97881 12.523 4.9652C12.5222 4.96508 12.5215 4.96569 12.5215 4.96648Z" fill="#FFC100" />
@@ -108,7 +108,7 @@
                 </p>
             </div>
 
-            <div class="w-full lg:w-7/12 md:px-6">
+            <div class="w-full xl:w-7/12 md:px-6">
                 <form action="" class="">
                     <div class="flex flex-wrap gap-y-4">
                         <div class="w-full md:w-1/2 md:px-1">
@@ -138,7 +138,7 @@
                 </form>
             </div>
         </div>
-        <?= renderImg('anchor.png', 'lib', 'absolute start-0 bottom-[-29px] lg:bottom-[-66px] z-50 hidden md:block') ?>
+        <?= renderImg('anchor.png', 'lib', 'absolute start-0 bottom-[-29px] lg:bottom-[-40px] xl:bottom-[-66px] z-50 hidden md:block') ?>
         <?= renderImg('anchor-sm.png', 'lib', 'absolute w-full start-0 bottom-[-74px] z-50 md:hidden') ?>
     </section>
 
@@ -186,7 +186,7 @@
 
 <section class="map bg-secondary rounded-[23px] md:rounded-[42px] mt-16 md:mt-24">
     <div class="container py-14 md:py-24">
-        <h2 class="text-center text-[40px] md:text-[70px] lg:text-[96px] text-white font-helvetica-condensed uppercase font-semibold leading-none">the trusted first choice in Hazardous material removal</h2>
+        <h2 class="text-center text-[40px] md:text-[70px] lg:text-[80px] xl:text-[96px] text-white font-helvetica-condensed uppercase font-semibold leading-none">the trusted first choice in Hazardous material removal</h2>
 
         <div class="flex flex-wrap pt-9 lg:pt-20 gap-y-3 justify-center">
             <div class="w-full md:w-1/2 lg:w-1/3 px-2">
@@ -235,7 +235,7 @@
         <div class="w-full lg:w-1/2 order-2 lg:order-1">
             <?= renderImg('about-1.jpg', 'lib', 'rounded-tr-[100px] w-full') ?>
         </div>
-        <div class="w-full lg:w-1/2 px-6 md:px-20 order-1 lg:order-2">
+        <div class="w-full lg:w-1/2 px-6 md:px-20 lg:px-6 xl:px-20 order-1 lg:order-2">
             <article class="xl:w-10/12 pt-10">
                 <h2 class="text-tertiary font-helvetica-condensed uppercase text-5xl md:text-7xl font-semibold">What is asbestos?</h2>
                 <p class="font-helvetica-condensed text-primary uppercase text-base md:text-[27px] font-semibold py-5 md:py-6">All Removal is complaint with safework nsw</p>
@@ -268,7 +268,7 @@
     </div>
 
     <div class="flex flex-wrap gap-y-12 pt-24">
-        <div class="w-full lg:w-1/2 px-6 md:px-20 flex justify-end">
+        <div class="w-full lg:w-1/2 px-6 md:px-20 lg:px-6 xl:px-20 flex justify-end">
             <article class="xl:w-10/12 md:pt-10">
                 <h2 class="text-tertiary font-helvetica-condensed uppercase text-5xl md:text-7xl font-semibold">Mould Remediation</h2>
                 <p class="font-helvetica-condensed text-primary uppercase ttext-base md:ext-[27px] font-semibold py-5 md:py-6">What does mould look like?</p>
@@ -338,7 +338,7 @@
         <div class="w-full lg:w-1/2 order-2 lg:order-1">
             <?= renderImg('about-3.jpg', 'lib', 'rounded-tr-[100px] w-full') ?>
         </div>
-        <div class="w-full lg:w-1/2 px-6 md:px-20 order-1 lg:order-2">
+        <div class="w-full lg:w-1/2 px-6 md:px-20 lg:px-6 xl:px-20 order-1 lg:order-2">
             <article class="xl:w-10/12 md:pt-5">
                 <h2 class="text-tertiary font-helvetica-condensed uppercase text-5xl md:text-7xl font-semibold">Hazardous Material Removal</h2>
                 <article class="font-raleway text-quaternary leading-8 pt-5">

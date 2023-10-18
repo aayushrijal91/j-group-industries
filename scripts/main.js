@@ -39,7 +39,7 @@ $('#gallery_slider').slick({
     autoplaySpeed: 2000,
     responsive: [
         {
-            breakpoint: 900,
+            breakpoint: 1100,
             settings: {
                 slidesToShow: 2,
                 slidesToScroll: 1,
@@ -81,7 +81,7 @@ $(() => {
         autoplaySpeed: 5000,
         responsive: [
             {
-                breakpoint: 900,
+                breakpoint: 1100,
                 settings: {
                     slidesToShow: 2,
                     slidesToScroll: 1,
