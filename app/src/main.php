@@ -71,8 +71,8 @@
 
     <div class="banner pt-6 xl:pt-0">
         <div class="flex flex-wrap items-center pb-40 gap-y-11 xl:gap-y-5">
-            <div class="w-full xl:w-1/2 flex xl:justify-end px-3 xl:px-0">
-                <article class="w-full xl:w-3/4">
+            <div class="w-full xl:w-1/2 flex xl:justify-end px-3 2xl:px-0">
+                <article class="w-full 2xl:w-3/4">
                     <h1 class="text-[45px] md:text-6xl lg:text-[85px] text-center xl:text-start font-helvetica-condensed font-semibold uppercase leading-none text-primary">Commercial and Residential <span class="text-white">Hazardous Material Removal</span></h1>
                     <p class="text-white text-sm md:text-2xl text-center xl:text-start font-medium py-8"><b>Fully Licensed and Qualified</b> with all NSW regulations and safety requirements</p>
                     <div class="flex flex-wrap items-center gap-x-6 justify-center">
@@ -236,7 +236,7 @@
             <?= renderImg('about-1.jpg', 'lib', 'rounded-tr-[100px] w-full') ?>
         </div>
         <div class="w-full lg:w-1/2 px-6 md:px-20 lg:px-6 xl:px-20 order-1 lg:order-2">
-            <article class="xl:w-10/12 pt-10">
+            <article class="2xl:w-10/12 pt-10">
                 <h2 class="text-tertiary font-helvetica-condensed uppercase text-5xl md:text-7xl font-semibold">What is asbestos?</h2>
                 <p class="font-helvetica-condensed text-primary uppercase text-base md:text-[27px] font-semibold py-5 md:py-6">All Removal is complaint with safework nsw</p>
                 <article class="font-raleway text-quaternary leading-7 md:leading-8 pb-5 text-base">
@@ -269,7 +269,7 @@
 
     <div class="flex flex-wrap gap-y-12 pt-24">
         <div class="w-full lg:w-1/2 px-6 md:px-20 lg:px-6 xl:px-20 flex justify-end">
-            <article class="xl:w-10/12 md:pt-10">
+            <article class="2xl:w-10/12 md:pt-10">
                 <h2 class="text-tertiary font-helvetica-condensed uppercase text-5xl md:text-7xl font-semibold">Mould Remediation</h2>
                 <p class="font-helvetica-condensed text-primary uppercase ttext-base md:ext-[27px] font-semibold py-5 md:py-6">What does mould look like?</p>
                 <article class="font-raleway text-quaternary leading-8 pb-5">
@@ -339,7 +339,7 @@
             <?= renderImg('about-3.jpg', 'lib', 'rounded-tr-[100px] w-full') ?>
         </div>
         <div class="w-full lg:w-1/2 px-6 md:px-20 lg:px-6 xl:px-20 order-1 lg:order-2">
-            <article class="xl:w-10/12 md:pt-5">
+            <article class="2xl:w-10/12 md:pt-5">
                 <h2 class="text-tertiary font-helvetica-condensed uppercase text-5xl md:text-7xl font-semibold">Hazardous Material Removal</h2>
                 <article class="font-raleway text-quaternary leading-8 pt-5">
                     <p class="pb-5">
