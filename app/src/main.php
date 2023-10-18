@@ -1,16 +1,16 @@
 <header>
     <nav>
         <div class="container py-5">
-            <div class="flex flex-wrap justify-center md:justify-between items-center gap-y-7">
+            <div class="flex flex-wrap justify-center lg:justify-between items-center gap-y-7">
                 <div class="w-7/2 lg:w-fit px-5 md:px-0"><a href="./"><?= renderImg('logo.png', 'logo') ?></a></div>
 
-                <div class="w-full md:w-1/2 lg:w-fit hidden md:flex items-center justify-center px-5 gap-x-2">
-                    <a href="" class="">
+                <div class="w-full md:w-1/2 lg:w-fit hidden lg:flex items-center justify-center px-5 gap-x-2">
+                    <a href="<?= $facebook ?>">
                         <svg width="33" height="34" viewBox="0 0 33 34" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M31.2235 17.3964C31.223 14.4098 30.3954 11.4857 28.8384 8.97056C27.2815 6.45537 25.0605 4.45434 22.4384 3.20437C19.8163 1.95439 16.9029 1.50781 14.043 1.91749C11.1832 2.32717 8.49673 3.57596 6.30164 5.51601C4.10656 7.45607 2.49479 10.0062 1.65716 12.8644C0.819521 15.7226 0.791091 18.7692 1.57523 21.6436C2.35937 24.5181 3.92325 27.0999 6.08172 29.0834C8.24019 31.0669 10.9029 32.3691 13.7545 32.8358V21.9137H9.92109V17.3964H13.7565V13.9528C13.7565 10.0357 16.0127 7.87209 19.4628 7.87209C20.5959 7.88835 21.7263 7.99021 22.845 8.17685V12.0237H20.9379C20.6132 11.9794 20.283 12.0112 19.9718 12.1167C19.6606 12.2222 19.3763 12.3987 19.1399 12.6332C18.9035 12.8677 18.7211 13.1541 18.6061 13.4714C18.4912 13.7886 18.4466 14.1285 18.4758 14.466V17.3964H22.6668L21.9965 21.9137H18.4758V32.8358C22.0298 32.2543 25.2665 30.3797 27.6034 27.5493C29.9403 24.7189 31.224 21.1187 31.2235 17.3964Z" fill="#A78949" />
                         </svg>
                     </a>
-                    <a href="" class="">
+                    <a href="<?= $instagram ?>">
                         <svg width="39" height="37" viewBox="0 0 39 37" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M19.7928 5.54679C24.2069 5.54679 24.7296 5.56235 26.4733 5.63719C27.5218 5.64926 28.5602 5.83045 29.5436 6.17288C30.2567 6.43172 30.9043 6.82823 31.4448 7.33689C31.9852 7.84554 32.4065 8.45507 32.6815 9.12624C33.0453 10.0517 33.2379 11.0291 33.2507 12.0159C33.3294 13.657 33.3467 14.149 33.3467 18.3034C33.3467 22.4578 33.3302 22.9498 33.2507 24.591C33.2379 25.5777 33.0453 26.5551 32.6815 27.4806C32.4065 28.1518 31.9852 28.7613 31.4448 29.27C30.9043 29.7786 30.2567 30.1751 29.5436 30.434C28.5602 30.7764 27.5218 30.9576 26.4733 30.9697C24.7304 31.0438 24.2076 31.0601 19.7928 31.0601C15.378 31.0601 14.8552 31.0445 13.1123 30.9697C12.0639 30.9576 11.0254 30.7764 10.042 30.434C9.32892 30.1751 8.6813 29.7786 8.14085 29.27C7.6004 28.7613 7.17911 28.1518 6.90409 27.4806C6.54026 26.5551 6.34775 25.5777 6.33492 24.591C6.25619 22.9498 6.23887 22.4578 6.23887 18.3034C6.23887 14.149 6.25541 13.657 6.33492 12.0159C6.34775 11.0291 6.54026 10.0517 6.90409 9.12624C7.17911 8.45507 7.6004 7.84554 8.14085 7.33689C8.6813 6.82823 9.32892 6.43172 10.042 6.17288C11.0254 5.83045 12.0639 5.64926 13.1123 5.63719C14.856 5.56309 15.3787 5.54679 19.7928 5.54679ZM19.7928 2.7431C15.3055 2.7431 14.7403 2.76089 12.9769 2.83646C11.6047 2.86215 10.2472 3.10666 8.96194 3.55961C7.85941 3.95058 6.86079 4.56325 6.03577 5.35489C5.19389 6.13167 4.54237 7.07207 4.12671 8.11042C3.64545 9.32006 3.38565 10.5978 3.35836 11.8892C3.27964 13.5474 3.26074 14.0794 3.26074 18.3027C3.26074 22.526 3.27964 23.058 3.35993 24.7177C3.38723 26.0091 3.64703 27.2868 4.12828 28.4964C4.54348 29.5346 5.19446 30.475 6.03577 31.252C6.86124 32.0438 7.86042 32.6565 8.96352 33.0472C10.2488 33.5002 11.6063 33.7447 12.9784 33.7704C14.7419 33.8445 15.3047 33.8638 19.7944 33.8638C24.284 33.8638 24.8469 33.846 26.6103 33.7704C27.9824 33.7447 29.34 33.5002 30.6252 33.0472C31.7231 32.6467 32.7201 32.035 33.5524 31.2511C34.3847 30.4672 35.034 29.5285 35.4589 28.495C35.9402 27.2853 36.1999 26.0076 36.2272 24.7162C36.306 23.058 36.3249 22.526 36.3249 18.3027C36.3249 14.0794 36.306 13.5474 36.2257 11.8877C36.1984 10.5963 35.9386 9.31858 35.4573 8.10894C35.0421 7.07073 34.3911 6.13033 33.5498 5.35341C32.7244 4.56159 31.7252 3.9489 30.6221 3.55813C29.3368 3.10518 27.9793 2.86067 26.6072 2.83498C24.8453 2.76089 24.2801 2.7431 19.7928 2.7431Z" fill="#A78949" />
                             <path d="M19.7928 10.3125C18.1137 10.3125 16.4724 10.7811 15.0763 11.6591C13.6802 12.537 12.592 13.7849 11.9495 15.245C11.3069 16.705 11.1388 18.3116 11.4664 19.8615C11.7939 21.4115 12.6025 22.8352 13.7898 23.9526C14.9771 25.0701 16.4898 25.8311 18.1366 26.1394C19.7834 26.4477 21.4904 26.2894 23.0417 25.6847C24.5929 25.0799 25.9188 24.0558 26.8517 22.7418C27.7845 21.4278 28.2824 19.883 28.2824 18.3027C28.2824 16.1835 27.388 14.1512 25.7959 12.6528C24.2038 11.1543 22.0444 10.3125 19.7928 10.3125ZM19.7928 23.4892C18.7029 23.4892 17.6375 23.185 16.7313 22.6151C15.825 22.0452 15.1187 21.2352 14.7016 20.2875C14.2845 19.3398 14.1754 18.2969 14.388 17.2908C14.6007 16.2848 15.1255 15.3606 15.8962 14.6353C16.6669 13.9099 17.6488 13.4159 18.7178 13.2158C19.7867 13.0157 20.8947 13.1184 21.9017 13.511C22.9086 13.9035 23.7693 14.5683 24.3748 15.4212C24.9803 16.2741 25.3035 17.2769 25.3035 18.3027C25.3035 19.6782 24.7229 20.9975 23.6895 21.9701C22.656 22.9428 21.2544 23.4892 19.7928 23.4892Z" fill="#A78949" />
@@ -20,16 +20,16 @@
                 </div>
 
                 <div class="w-full lg:w-fit flex flex-wrap justify-center items-center xl:-mx-2">
-                    <div class="w-fit px-1 md:hidden">
-                        <a href="" class="">
+                    <div class="w-fit px-1 lg:hidden">
+                        <a href="<?= $facebook ?>">
                             <svg width="33" height="34" viewBox="0 0 33 34" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M31.2235 17.3964C31.223 14.4098 30.3954 11.4857 28.8384 8.97056C27.2815 6.45537 25.0605 4.45434 22.4384 3.20437C19.8163 1.95439 16.9029 1.50781 14.043 1.91749C11.1832 2.32717 8.49673 3.57596 6.30164 5.51601C4.10656 7.45607 2.49479 10.0062 1.65716 12.8644C0.819521 15.7226 0.791091 18.7692 1.57523 21.6436C2.35937 24.5181 3.92325 27.0999 6.08172 29.0834C8.24019 31.0669 10.9029 32.3691 13.7545 32.8358V21.9137H9.92109V17.3964H13.7565V13.9528C13.7565 10.0357 16.0127 7.87209 19.4628 7.87209C20.5959 7.88835 21.7263 7.99021 22.845 8.17685V12.0237H20.9379C20.6132 11.9794 20.283 12.0112 19.9718 12.1167C19.6606 12.2222 19.3763 12.3987 19.1399 12.6332C18.9035 12.8677 18.7211 13.1541 18.6061 13.4714C18.4912 13.7886 18.4466 14.1285 18.4758 14.466V17.3964H22.6668L21.9965 21.9137H18.4758V32.8358C22.0298 32.2543 25.2665 30.3797 27.6034 27.5493C29.9403 24.7189 31.224 21.1187 31.2235 17.3964Z" fill="#A78949" />
                             </svg>
                         </a>
                     </div>
 
-                    <div class="w-fit px-1 md:hidden">
-                        <a href="" class="">
+                    <div class="w-fit px-1 lg:hidden">
+                        <a href="<?= $instagram ?>">
                             <svg width="39" height="37" viewBox="0 0 39 37" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M19.7928 5.54679C24.2069 5.54679 24.7296 5.56235 26.4733 5.63719C27.5218 5.64926 28.5602 5.83045 29.5436 6.17288C30.2567 6.43172 30.9043 6.82823 31.4448 7.33689C31.9852 7.84554 32.4065 8.45507 32.6815 9.12624C33.0453 10.0517 33.2379 11.0291 33.2507 12.0159C33.3294 13.657 33.3467 14.149 33.3467 18.3034C33.3467 22.4578 33.3302 22.9498 33.2507 24.591C33.2379 25.5777 33.0453 26.5551 32.6815 27.4806C32.4065 28.1518 31.9852 28.7613 31.4448 29.27C30.9043 29.7786 30.2567 30.1751 29.5436 30.434C28.5602 30.7764 27.5218 30.9576 26.4733 30.9697C24.7304 31.0438 24.2076 31.0601 19.7928 31.0601C15.378 31.0601 14.8552 31.0445 13.1123 30.9697C12.0639 30.9576 11.0254 30.7764 10.042 30.434C9.32892 30.1751 8.6813 29.7786 8.14085 29.27C7.6004 28.7613 7.17911 28.1518 6.90409 27.4806C6.54026 26.5551 6.34775 25.5777 6.33492 24.591C6.25619 22.9498 6.23887 22.4578 6.23887 18.3034C6.23887 14.149 6.25541 13.657 6.33492 12.0159C6.34775 11.0291 6.54026 10.0517 6.90409 9.12624C7.17911 8.45507 7.6004 7.84554 8.14085 7.33689C8.6813 6.82823 9.32892 6.43172 10.042 6.17288C11.0254 5.83045 12.0639 5.64926 13.1123 5.63719C14.856 5.56309 15.3787 5.54679 19.7928 5.54679ZM19.7928 2.7431C15.3055 2.7431 14.7403 2.76089 12.9769 2.83646C11.6047 2.86215 10.2472 3.10666 8.96194 3.55961C7.85941 3.95058 6.86079 4.56325 6.03577 5.35489C5.19389 6.13167 4.54237 7.07207 4.12671 8.11042C3.64545 9.32006 3.38565 10.5978 3.35836 11.8892C3.27964 13.5474 3.26074 14.0794 3.26074 18.3027C3.26074 22.526 3.27964 23.058 3.35993 24.7177C3.38723 26.0091 3.64703 27.2868 4.12828 28.4964C4.54348 29.5346 5.19446 30.475 6.03577 31.252C6.86124 32.0438 7.86042 32.6565 8.96352 33.0472C10.2488 33.5002 11.6063 33.7447 12.9784 33.7704C14.7419 33.8445 15.3047 33.8638 19.7944 33.8638C24.284 33.8638 24.8469 33.846 26.6103 33.7704C27.9824 33.7447 29.34 33.5002 30.6252 33.0472C31.7231 32.6467 32.7201 32.035 33.5524 31.2511C34.3847 30.4672 35.034 29.5285 35.4589 28.495C35.9402 27.2853 36.1999 26.0076 36.2272 24.7162C36.306 23.058 36.3249 22.526 36.3249 18.3027C36.3249 14.0794 36.306 13.5474 36.2257 11.8877C36.1984 10.5963 35.9386 9.31858 35.4573 8.10894C35.0421 7.07073 34.3911 6.13033 33.5498 5.35341C32.7244 4.56159 31.7252 3.9489 30.6221 3.55813C29.3368 3.10518 27.9793 2.86067 26.6072 2.83498C24.8453 2.76089 24.2801 2.7431 19.7928 2.7431Z" fill="#A78949" />
                                 <path d="M19.7928 10.3125C18.1137 10.3125 16.4724 10.7811 15.0763 11.6591C13.6802 12.537 12.592 13.7849 11.9495 15.245C11.3069 16.705 11.1388 18.3116 11.4664 19.8615C11.7939 21.4115 12.6025 22.8352 13.7898 23.9526C14.9771 25.0701 16.4898 25.8311 18.1366 26.1394C19.7834 26.4477 21.4904 26.2894 23.0417 25.6847C24.5929 25.0799 25.9188 24.0558 26.8517 22.7418C27.7845 21.4278 28.2824 19.883 28.2824 18.3027C28.2824 16.1835 27.388 14.1512 25.7959 12.6528C24.2038 11.1543 22.0444 10.3125 19.7928 10.3125ZM19.7928 23.4892C18.7029 23.4892 17.6375 23.185 16.7313 22.6151C15.825 22.0452 15.1187 21.2352 14.7016 20.2875C14.2845 19.3398 14.1754 18.2969 14.388 17.2908C14.6007 16.2848 15.1255 15.3606 15.8962 14.6353C16.6669 13.9099 17.6488 13.4159 18.7178 13.2158C19.7867 13.0157 20.8947 13.1184 21.9017 13.511C22.9086 13.9035 23.7693 14.5683 24.3748 15.4212C24.9803 16.2741 25.3035 17.2769 25.3035 18.3027C25.3035 19.6782 24.7229 20.9975 23.6895 21.9701C22.656 22.9428 21.2544 23.4892 19.7928 23.4892Z" fill="#A78949" />
@@ -69,13 +69,13 @@
         </div>
     </nav>
 
-    <div class="banner pt-6 md:pt-0">
-        <div class="flex flex-wrap items-center pb-40 gap-y-11 md:gap-y-5">
-            <div class="w-full md:w-1/2 flex justify-end px-3 md:px-0">
-                <article class="w-full md:w-3/4">
-                    <h1 class="text-[45px] md:text-[85px] text-center md:text-start font-helvetica-condensed font-semibold uppercase leading-none text-primary">Commercial and Residential <span class="text-white">Hazardous Material Removal</span></h1>
-                    <p class="text-white text-sm md:text-2xl text-center md:text-start font-medium py-8"><b>Fully Licensed and Qualified</b> with all NSW regulations and safety requirements</p>
-                    <div class="flex flex-wrap items-center gap-x-6">
+    <div class="banner pt-6 lg:pt-0">
+        <div class="flex flex-wrap items-center pb-40 gap-y-11 lg:gap-y-5">
+            <div class="w-full lg:w-1/2 flex justify-end px-3 lg:px-0">
+                <article class="w-full lg:w-3/4">
+                    <h1 class="text-[45px] md:text-6xl lg:text-[85px] text-center lg:text-start font-helvetica-condensed font-semibold uppercase leading-none text-primary">Commercial and Residential <span class="text-white">Hazardous Material Removal</span></h1>
+                    <p class="text-white text-sm md:text-2xl text-center lg:text-start font-medium py-8"><b>Fully Licensed and Qualified</b> with all NSW regulations and safety requirements</p>
+                    <div class="flex flex-wrap items-center gap-x-6 justify-center">
                         <div class="w-1/5 md:w-fit"><?= renderImg('lendlease.png', 'logo') ?></div>
                         <div class="w-1/5 md:w-fit"><?= renderImg('lipman.png', 'logo') ?></div>
                         <div class="w-1/5 md:w-fit"><?= renderImg('tbi-taylor.png', 'logo') ?></div>
@@ -84,15 +84,15 @@
                     </div>
                 </article>
             </div>
-            <div class="md:w-1/2"><?= renderImg('banner.jpg', 'lib', 'w-full rounded-tl-[100px] md:rounded-tl-none md:rounded-tr-[100px] md:rounded-bl-[250px]') ?></div>
+            <div class="lg:w-1/2"><?= renderImg('banner.jpg', 'lib', 'w-full rounded-tl-[100px] md:rounded-tl-none md:rounded-tr-[100px] md:rounded-bl-[250px]') ?></div>
         </div>
     </div>
 </header>
 
-<div class="container mt-[-190px] md:mt-[-114px]">
+<div class="container mt-[-190px] lg:mt-[-114px]">
     <section class="form rounded-[12px] bg-[#282828] py-10 px-4 relative">
         <div class="flex flex-wrap justify-between items-center gap-y-8">
-            <div class="w-full md:w-5/12 md:px-6">
+            <div class="w-full lg:w-5/12 md:px-6">
                 <h2 class="text-[40px] md:text-[70px] text-white font-helvetica-condensed font-semibold uppercase leading-none text-center md:text-start">Your trusted Hazardous Removal Experts</h2>
                 <p class="text-white flex items-center gap-x-3 font-semibold pt-3">Consistent 5 star ratings
                     <span>
@@ -108,7 +108,7 @@
                 </p>
             </div>
 
-            <div class="w-full md:w-7/12 md:px-6">
+            <div class="w-full lg:w-7/12 md:px-6">
                 <form action="" class="">
                     <div class="flex flex-wrap gap-y-4">
                         <div class="w-full md:w-1/2 md:px-1">
@@ -138,13 +138,13 @@
                 </form>
             </div>
         </div>
-        <?= renderImg('anchor.png', 'lib', 'absolute start-0 bottom-[-66px] z-50 hidden md:block') ?>
+        <?= renderImg('anchor.png', 'lib', 'absolute start-0 bottom-[-29px] lg:bottom-[-66px] z-50 hidden md:block') ?>
         <?= renderImg('anchor-sm.png', 'lib', 'absolute w-full start-0 bottom-[-74px] z-50 md:hidden') ?>
     </section>
 
     <section class="services">
-        <div class="flex flex-wrap gap-y-3">
-            <div class="w-full md:w-1/3 md:px-1.5">
+        <div class="flex flex-wrap gap-y-3 justify-center">
+            <div class="w-full md:w-1/2 lg:w-1/3 md:px-1.5">
                 <article class="min-h-[608px] h-full rounded-[12px] overflow-hidden relative">
                     <?= renderImg('servicing-nsw.jpg', 'lib', 'h-full object-cover object-center') ?>
                     <div class="overlay absolute w-full bottom-0">
@@ -156,7 +156,7 @@
                     </div>
                 </article>
             </div>
-            <div class="w-full md:w-1/3 md:px-1.5">
+            <div class="w-full md:w-1/2 lg:w-1/3 md:px-1.5">
                 <article class="min-h-[608px] h-full rounded-[12px] overflow-hidden relative">
                     <?= renderImg('free-onsite.jpg', 'lib', 'h-full object-cover object-center') ?>
                     <div class="overlay absolute w-full bottom-0">
@@ -168,7 +168,7 @@
                     </div>
                 </article>
             </div>
-            <div class="w-full md:w-1/3 md:px-1.5">
+            <div class="w-full md:w-1/2 lg:w-1/3 md:px-1.5">
                 <article class="min-h-[608px] h-full rounded-[12px] overflow-hidden relative">
                     <?= renderImg('emergency-response.jpg', 'lib', 'h-full object-cover object-center') ?>
                     <div class="overlay absolute w-full bottom-0">
@@ -186,10 +186,10 @@
 
 <section class="map bg-secondary rounded-[23px] md:rounded-[42px] mt-16 md:mt-24">
     <div class="container py-14 md:py-24">
-        <h2 class="text-center text-[40px] md:text-[96px] text-white font-helvetica-condensed uppercase font-semibold leading-none">the trusted first choice in Hazardous material removal</h2>
+        <h2 class="text-center text-[40px] md:text-[70px] lg:text-[96px] text-white font-helvetica-condensed uppercase font-semibold leading-none">the trusted first choice in Hazardous material removal</h2>
 
-        <div class="flex flex-wrap pt-9 md:pt-20 gap-y-3">
-            <div class="md:w-1/3 px-2">
+        <div class="flex flex-wrap pt-9 lg:pt-20 gap-y-3 justify-center">
+            <div class="w-full md:w-1/2 lg:w-1/3 px-2">
                 <article class="serviceCard">
                     <div class="rounded-[12px] md:rounded-[20px] overflow-hidden h-[341px] bg-grey">
                         <?= renderImg('asbestos-removal.jpg', 'lib', 'object-cover object-center w-full h-full') ?>
@@ -201,7 +201,7 @@
                 </article>
             </div>
 
-            <div class="md:w-1/3 px-2">
+            <div class="w-full md:w-1/2 lg:w-1/3 px-2">
                 <article class="serviceCard">
                     <div class="rounded-[12px] md:rounded-[20px] overflow-hidden h-[341px] bg-grey">
                         <?= renderImg('mould-remediation.jpg', 'lib', 'object-cover object-center w-full h-full') ?>
@@ -213,7 +213,7 @@
                 </article>
             </div>
 
-            <div class="w-full md:w-1/3 px-2">
+            <div class="w-full md:w-1/2 lg:w-1/3 px-2">
                 <article class="serviceCard">
                     <div class="rounded-[12px] md:rounded-[20px] overflow-hidden h-[341px] bg-grey">
                         <?= renderImg('hazardous-material.jpg', 'lib', 'object-cover object-center w-full h-full') ?>
@@ -232,11 +232,11 @@
 
 <section class="py-12 md:py-24 about">
     <div class="flex flex-wrap gap-y-12">
-        <div class="w-full md:w-1/2 order-2 md:order-1">
+        <div class="w-full lg:w-1/2 order-2 lg:order-1">
             <?= renderImg('about-1.jpg', 'lib', 'rounded-tr-[100px] w-full') ?>
         </div>
-        <div class="w-full md:w-1/2 px-6 md:px-20 order-1 md:order-2">
-            <article class="md:w-10/12 pt-10">
+        <div class="w-full lg:w-1/2 px-6 md:px-20 order-1 lg:order-2">
+            <article class="xl:w-10/12 pt-10">
                 <h2 class="text-tertiary font-helvetica-condensed uppercase text-5xl md:text-7xl font-semibold">What is asbestos?</h2>
                 <p class="font-helvetica-condensed text-primary uppercase text-base md:text-[27px] font-semibold py-5 md:py-6">All Removal is complaint with safework nsw</p>
                 <article class="font-raleway text-quaternary leading-7 md:leading-8 pb-5 text-base">
@@ -268,8 +268,8 @@
     </div>
 
     <div class="flex flex-wrap gap-y-12 pt-24">
-        <div class="w-full md:w-1/2 px-6 md:px-20 flex justify-end">
-            <article class="md:w-10/12 md:pt-10">
+        <div class="w-full lg:w-1/2 px-6 md:px-20 flex justify-end">
+            <article class="xl:w-10/12 md:pt-10">
                 <h2 class="text-tertiary font-helvetica-condensed uppercase text-5xl md:text-7xl font-semibold">Mould Remediation</h2>
                 <p class="font-helvetica-condensed text-primary uppercase ttext-base md:ext-[27px] font-semibold py-5 md:py-6">What does mould look like?</p>
                 <article class="font-raleway text-quaternary leading-8 pb-5">
@@ -329,17 +329,17 @@
                 </article>
             </article>
         </div>
-        <div class="w-full md:w-1/2">
-            <?= renderImg('about-2.jpg', 'lib', 'rounded-tr-[100px] md:rounded-tr-none md:rounded-tl-[100px] w-full') ?>
+        <div class="w-full lg:w-1/2">
+            <?= renderImg('about-2.jpg', 'lib', 'rounded-tr-[100px] lg:rounded-tr-none lg:rounded-tl-[100px] w-full') ?>
         </div>
     </div>
 
     <div class="flex flex-wrap pt-24 gap-y-12">
-        <div class="w-full md:w-1/2 order-2 md:order-1">
+        <div class="w-full lg:w-1/2 order-2 lg:order-1">
             <?= renderImg('about-3.jpg', 'lib', 'rounded-tr-[100px] w-full') ?>
         </div>
-        <div class="w-full md:w-1/2 px-6 md:px-20 order-1 md:order-2">
-            <article class="md:w-10/12 md:pt-5">
+        <div class="w-full lg:w-1/2 px-6 md:px-20 order-1 lg:order-2">
+            <article class="xl:w-10/12 md:pt-5">
                 <h2 class="text-tertiary font-helvetica-condensed uppercase text-5xl md:text-7xl font-semibold">Hazardous Material Removal</h2>
                 <article class="font-raleway text-quaternary leading-8 pt-5">
                     <p class="pb-5">

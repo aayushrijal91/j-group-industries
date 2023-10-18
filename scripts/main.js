@@ -39,6 +39,15 @@ $('#gallery_slider').slick({
     autoplaySpeed: 2000,
     responsive: [
         {
+            breakpoint: 900,
+            settings: {
+                slidesToShow: 2,
+                slidesToScroll: 1,
+                centerMode: true,
+                centerPadding: "60px",
+            }
+        },
+        {
             breakpoint: 540,
             settings: {
                 slidesToShow: 1,
@@ -70,8 +79,14 @@ $(() => {
         autoplay: true,
         speed: 3000,
         autoplaySpeed: 5000,
-        // mobileFirst: true,
         responsive: [
+            {
+                breakpoint: 900,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                }
+            },
             {
                 breakpoint: 540,
                 settings: {
