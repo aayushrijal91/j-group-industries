@@ -36,6 +36,8 @@ section.form {
             padding: 8px 20px;
             font-weight: 600;
             font-size: 18px;
+            box-shadow: none;
+            outline: none;
 
             @media screen and (max-width: 540px) {
                 height: 47px;
