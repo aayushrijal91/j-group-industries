@@ -2,7 +2,7 @@
 include __DIR__ . '/env.php';
 
 $site = "J Group Industries";
-$phone_number = "0426 133 223";
+$phone_number = "1300 845 425";
 $admin_email = 'arijal@aiims.com.au'; // 'info@jgroupindustries.au';
 $bcc_email = "";
 $no_reply_email = 'info@jgroupindustries.au';

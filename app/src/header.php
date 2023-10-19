@@ -76,6 +76,8 @@
 
 		gtag('config', 'AW-11324228458');
 	</script>
+
+	<script async src="https://trkcall.com/scripts/96632.js"></script>
 </head>
 
 <body>
