@@ -115,23 +115,24 @@
                     <div class="flex flex-wrap gap-y-4">
                         <div class="w-full md:w-1/2 md:px-1">
                             <label for="fname">First name</label>
-                            <input type="text" id="fname" name="fname" class="form-control" placeholder="Eg: John">
+                            <input type="text" id="fname" name="fname" class="form-control" placeholder="Eg: John" required>
                         </div>
                         <div class="w-full md:w-1/2 md:px-1">
                             <label for="lname">Last name</label>
-                            <input type="text" id="lname" name="lname" class="form-control" placeholder="Eg: Doe">
+                            <input type="text" id="lname" name="lname" class="form-control" placeholder="Eg: Doe" required>
                         </div>
                         <div class="w-full md:w-1/3 md:px-1">
                             <label for="contactNumber">Contact Number</label>
-                            <input type="text" id="contactNumber" name="contactNumber" class="form-control" placeholder="Eg: 0400 000 000">
+                            <input type="text" id="contactNumber" name="contactNumber" class="form-control" placeholder="Eg: 0400 000 000" required>
+                            <p class="text-sm text-red hidden" id="phoneError">Invalid Phone Number</p>
                         </div>
                         <div class="w-full md:w-1/3 md:px-1">
                             <label for="emailAddress">Email Address</label>
-                            <input type="text" id="emailAddress" name="emailAddress" class="form-control" placeholder="Eg: example@email.com">
+                            <input type="text" id="emailAddress" name="emailAddress" class="form-control" placeholder="Eg: example@email.com" required>
                         </div>
                         <div class="w-full md:w-1/3 md:px-1">
                             <label for="location">Location</label>
-                            <input type="text" id="location" name="location" class="form-control" placeholder="Eg: Parramatta">
+                            <input type="text" id="location" name="location" class="form-control" placeholder="Eg: Parramatta" required>
                         </div>
                         <div class="w-full md:px-1">
                             <button type="submit" class="bg-primary text-white w-full h-[47px] md:h-[57px] font-bold font-raleway text-lg">Submit</button>
@@ -229,7 +230,7 @@
         </div>
     </div>
 
-    <iframe class="h-[820px] w-full rounded-[23px] md:rounded-[42px]" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13259.581913302782!2d150.99845597151742!3d-33.8150102940093!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12a318e167af4f%3A0x5017d681632c600!2sParramatta%20NSW%202150!5e0!3m2!1sen!2sau!4v1697534805129!5m2!1sen!2sau" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <iframe class="h-[820px] w-full rounded-[23px] md:rounded-[42px]" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30638.099319418143!2d150.98597147969036!3d-33.81746380066525!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12a318e167af4f%3A0x5017d681632c600!2sParramatta%20NSW%202150!5e0!3m2!1sen!2sau!4v1697674519210!5m2!1sen!2sau" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </section>
 
 <section class="py-12 md:py-24 about">
